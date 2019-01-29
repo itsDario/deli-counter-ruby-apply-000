@@ -15,7 +15,7 @@ end
 
 
 def take_a_number(katz_deli)
-  katz_deli << "person"
+  katz_deli << katz_deli.length + 1
   puts "Welcome, You are number #{katz_deli.length} in line."
 end
 
